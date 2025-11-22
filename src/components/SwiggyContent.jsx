@@ -5,7 +5,7 @@ import SwiggyComponent from './SwiggyComponent';
 import { useContext, useEffect, useState } from "react";
 import { DataContext } from "../context/DataContex"
 export default function SwiggyContent(){
-    const {category , setSelectedItem ,query ,setQuery ,location ,setLocation ,locationQuery ,setLocationQuery} = useContext(DataContext);
+    const {category , setSelectedItem ,query ,setQuery ,location ,setLocation ,locationQuery ,setLocationQuery ,restData ,filtereddata} = useContext(DataContext);
     const [isSearchOpen, setIsSearchOpen] = useState(false); 
 
     const searchlocation = async(e) =>{
@@ -86,15 +86,19 @@ export default function SwiggyContent(){
                                 ✖ Close
                                 </button>
 
-                                <div className="mt-5">
-                                {query.length > 0 && category
-                                    .filter((item) => item.name.toLowerCase().includes(query))
-                                    .map((rest) => (
-                                    <div className=" object-cover top-0 left-0 w-full h-full bg-slate-50 z-50 my-4 flex items-center cursor-pointer" onClick={()=>{setSelectedItem(rest)}}>
-                                        <img className="w-20 h-20" src={rest.image} alt="" />
-                                        <p className="font-bold mx-4">{rest.name}</p>
-                                    </div>
-                                    ))}
+                                <div className=" fixed inset-0 top-35 px-95 overflow-y-auto">
+                                    {query.length > 0 && (
+                                    filtereddata.map((item) => (
+                                        <div 
+                                        key={item.id}
+                                        className="object-cover top-0 left-0 w-full h-[100px] bg-slate-50 z-50 my-4 flex items-center cursor-pointer "
+                                        onClick={() => setSelectedItem(item)}
+                                        >
+                                        <img className="w-20 h-20" src={item.image} alt={item.name} />
+                                        <p className="font-bold mx-4">{item.name}</p>
+                                        </div>
+                                    ))
+                                    )}
                                 </div>
                             </div>
                             )

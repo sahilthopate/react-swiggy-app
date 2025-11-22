@@ -12,11 +12,17 @@ export const DataProvider = ({children})=>{
     const [location ,setLocation] =useState([]);
 
     const [selectCart , setSelectCart] = useState(false);
+   
+    const mergedData = [...category, ...restData];
 
-    let filtereddata = category.filter((food)=>{
-      const searchedData = food.name;
-      return searchedData.toLowerCase().includes(query.toLowerCase());
-    })
+    const filtereddata = mergedData.filter((item) =>
+      item.name.toLowerCase().includes(query.toLowerCase())
+    );
+
+    // let filtereddata = category.filter((food)=>{
+    //   const searchedData = food.name;
+    //   return searchedData.toLowerCase().includes(query.toLowerCase());
+    // })
 
   
     

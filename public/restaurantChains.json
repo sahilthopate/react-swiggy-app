@@ -7,7 +7,8 @@
         "minTime": 30,
         "maxTime": 40,
         "name": "Pizzas",
-        "place": "New Jodhpur"
+        "place": "New Jodhpur",
+        "price":299
     },
     {
         "image": "75d0b3ebeb56fe2484c944e94cac7a8d.jpeg",
@@ -17,7 +18,8 @@
         "minTime": 35,
         "maxTime": 40,
         "name": "Sweets,South Indian",
-        "place": "Shastri Nagar"
+        "place": "Shastri Nagar",
+        "price":499
     },
     {
         "image": "cef5bf4cc31dc3c46a1e1b027c5627e4.jpeg",
@@ -27,7 +29,8 @@
         "minTime": 35,
         "maxTime": 40,
         "name": "North India, Thalis",
-        "place": "Sardarpura"
+        "place": "Sardarpura",
+        "price":399
     },
     {
         "image": "eillc7d7hbrzcuussus5.jpeg",
@@ -37,7 +40,8 @@
         "minTime": 25,
         "maxTime": 25,
         "name": "Desserts,Ice Cream",
-        "place": "Chopsani Housing Board"
+        "place": "Chopsani Housing Board",
+        "price":250
     },
     {
         "image": "6e04be27387483a7c00444f8e8241108.jpeg",
@@ -47,7 +51,8 @@
         "minTime": 30,
         "maxTime": 35,
         "name": "Biryani, North India",
-        "place": "Shastri Nagar"
+        "place": "Shastri Nagar",
+        "price":699
     },
     {
         "image": "w7ndo1dkkk6kf4qfz2p1.jpeg",
@@ -57,7 +62,8 @@
         "minTime": 25,
         "maxTime": 30,
         "name": "Desserts,Ice Cream",
-        "place": "Sardarpura"
+        "place": "Sardarpura",
+        "price":379
     },
     {
         "image": "f1bc9ddf53de574cdc35ab2f717df234.jpeg",
@@ -67,7 +73,8 @@
         "minTime": 35,
         "maxTime": 40,
         "name": "South Indian",
-        "place": "Chopsani Housing Board"
+        "place": "Chopsani Housing Board",
+        "price":289
     },
     {
         "image": "919cb3be0e7406f86f6741ebe7c30128.jpeg",
@@ -77,7 +84,8 @@
         "minTime": 30,
         "maxTime": 35,
         "name": "Biryani, North India",
-        "place": "Shastri Nagar"
+        "place": "Shastri Nagar",
+        "price":179
     },
     {
         "image": "535fc9f9c135f7982317bbb6a64a1ffc.jpeg",
@@ -87,7 +95,8 @@
         "minTime": 30,
         "maxTime": 35,
         "name": "American",
-        "place": "Rawaton Ka Bass"
+        "place": "Rawaton Ka Bass",
+        "price":399
     },
     {
         "image": "2a41aa363a8ae1e98a4cce95c2d0c589.jpeg",
@@ -97,6 +106,7 @@
         "minTime": 35,
         "maxTime": 40,
         "name": "Cake",
-        "place": "Chopsani Housing Board"
+        "place": "Chopsani Housing Board",
+        "price":499
     }
 ]
