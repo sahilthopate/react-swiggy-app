@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Vada",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Vada.png",
+    "price": 199
+  },
+  {
+    "name": "Poha",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Poha.png",
+    "price": 99
+  },
+  {
+    "name": "Dosa",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Dosa.png",
+    "price": 249
+  },
+  {
+    "name": "Omelette",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Omelette.png",
+    "price": 120
+  },
+  {
+    "name": "Idli",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Idli.png",
+    "price": 99
+  },
+  {
+    "name": "Upma",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Upma.png",
+    "price": 89
+  },
+  {
+    "name": "Samosa",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Samosa.png",
+    "price": 59
+  },
+  {
+    "name": "Pav Bhaji",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/PavBhaji.png",
+    "price": 149
+  },
+  {
+    "name": "Misal",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Misal.png",
+    "price": 129
+  },
+  {
+    "name": "Biryani",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Biryani.png",
+    "price": 249
+  },
+  {
+    "name": "Pizza",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Pizza.png",
+    "price": 299
+  },
+  {
+    "name": "Burger",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Burger.png",
+    "price": 169
+  },
+  {
+    "name": "Sandwich",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Sandwich.png",
+    "price": 129
+  },
+  {
+    "name": "Pasta",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Pasta.png",
+    "price": 199
+  },
+  {
+    "name": "Noodles",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Noodles.png",
+    "price": 149
+  },
+  {
+    "name": "Momos",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Momos.png",
+    "price": 120
+  },
+  {
+    "name": "Kachori",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Kachori.png",
+    "price": 49
+  },
+  {
+    "name": "Falooda",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Falooda.png",
+    "price": 139
+  },
+  {
+    "name": "Gulab Jamun",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/GulabJamun.png",
+    "price": 79
+  },
+  {
+    "name": "Thali",
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Thali.png",
+    "price": 199
+  }
+]
