@@ -81,7 +81,7 @@ export default function SwiggyContent(){
 
                                 <button
                                 className="text-l font-bold m-5 cursor-pointer"
-                                onClick={() => {setIsSearchOpen(false);query.length = 0}}
+                                onClick={() => {setIsSearchOpen(false); return query.length = 0}}
                                 >
                                 ✖ Close
                                 </button>

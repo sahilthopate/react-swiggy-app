@@ -10,6 +10,7 @@ export const DataProvider = ({children})=>{
     const [slide , setSlide] = useState(0);
     const [selectedItem , setSelectedItem] = useState(null);
     const [location ,setLocation] =useState([]);
+    const [partnerClick ,setPartnerClick] = useState(false);
 
     const [selectCart , setSelectCart] = useState(false);
    
@@ -27,7 +28,7 @@ export const DataProvider = ({children})=>{
   
     
     return(
-    <DataContext.Provider value={{category ,setCategory ,filtereddata , query ,setQuery ,slide , setSlide, restData , setRestData ,selectedItem , setSelectedItem ,location ,setLocation ,locationQuery ,setLocationQuery ,selectCart , setSelectCart }}>
+    <DataContext.Provider value={{category ,setCategory ,filtereddata , query ,setQuery ,slide , setSlide, restData , setRestData ,selectedItem , setSelectedItem ,location ,setLocation ,locationQuery ,setLocationQuery ,selectCart , setSelectCart ,partnerClick ,setPartnerClick}}>
         {children}
     </DataContext.Provider>
     )
